@@ -44,7 +44,7 @@ const Test1 = () => {
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           {itemsToShow.map((item, index) => (
-          <Card key={index} style={{ marginBottom: '8px', width: '300px' }} data-testid={`card-${index}`}>
+          <Card key={index} style={{ marginBottom: '12px', width: '300px' }} data-testid={`card-${index}`}>
     
     <ItemCard data-testid="mocked-test-component" {...item} />
 
