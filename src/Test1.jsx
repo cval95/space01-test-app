@@ -24,11 +24,11 @@ const Test1 = () => {
 
     return (
         <Container style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" style={{ marginBottom: '20px', marginTop: '20px' }}>
           Product List
         </Typography>
-        <div style={{ marginBottom: '16px' }}>
-          <label style={{ marginRight: '16px' }}>
+        <div style={{ marginBottom: '20px' }}>
+          <label style={{ marginRight: '20px' }}>
             Cheapest 5 items:
             <Checkbox
               checked={showCheapest}
@@ -44,7 +44,7 @@ const Test1 = () => {
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           {itemsToShow.map((item, index) => (
-          <Card key={index} style={{ marginBottom: '12px', width: '300px' }} data-testid={`card-${index}`}>
+          <Card key={index} style={{ marginBottom: '20px', width: '300px' }} data-testid={`card-${index}`}>
     
     <ItemCard data-testid="mocked-test-component" {...item} />
 

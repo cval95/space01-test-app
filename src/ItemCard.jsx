@@ -9,7 +9,7 @@ const ItemCard = ({ name, price }) => (
             {name}
           </Typography>
           <Typography variant="h7">
-            {price}
+           £{price}
           </Typography>
         </CardContent>
     </Card>
